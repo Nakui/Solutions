@@ -145,9 +145,9 @@ def prob_10(a,b,c):
 
     p1 = math.sqrt((a[0] - b[0])**2 + (a[1] - b[1])**2)
 
-    p2 = math.sqrt((b[0] - a[0])**2 + (b[1] - a[1])**2)
+    p2 = math.sqrt((b[0] - c[0])**2 + (b[1] - c[1])**2)
     
-    p3 = math.sqrt((c[0]- b[0])**2 + (c[1] - b[1])**2)
+    p3 = math.sqrt((c[0]- a[0])**2 + (c[1] - a[1])**2)
 
     triangulo = [p1,p2,p3]
 
